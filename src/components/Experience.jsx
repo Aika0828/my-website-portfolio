@@ -41,14 +41,14 @@ const Experience = () => {
   return (
     <SectionWrapper id="experience" className="bg-gradient-to-br from-blue-50 to-blue-100">
       <h2 className="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">Work Experience</h2>
-      <div className="relative max-w-3xl mx-auto pl-12">
-        <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gray-200"></div>
+      <div className="relative max-w-3xl mx-auto pl-8 md:pl-12">
+        <div className="absolute left-4 md:left-6 top-0 bottom-0 w-0.5 bg-gray-200"></div>
         {experienceData.map((job, index) => (
           <div key={index} className="relative mb-12">
-            <div className="absolute -left-[4.7rem] top-1.5 w-10 h-10 bg-secondary/20 text-secondary rounded-full flex items-center justify-center ring-8 ring-background">
+            <div className="absolute -left-1 md:-left-0.5 top-2 w-10 h-10 bg-secondary/20 text-secondary rounded-full flex items-center justify-center ring-4 md:ring-8 ring-background">
               <Briefcase className="w-5 h-5" />
             </div>
-            <div className="pl-4">
+            <div className="pl-8 md:pl-4">
               <p className="text-sm text-text/60 font-medium">{job.period}</p>
               <h3 className="text-xl font-bold text-primary mt-1">{job.role}</h3>
               <p className="text-md font-semibold text-text/80 mb-3">{job.company}</p>
