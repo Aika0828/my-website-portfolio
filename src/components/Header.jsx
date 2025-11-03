@@ -64,11 +64,14 @@ const Header = () => {
       </motion.div>
       
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        <iframe
-          src="/my-website-portfolio/Resume_De_Matta.pdf"
+        <object
+          data="/my-website-portfolio/Resume_De_Matta.pdf#toolbar=0&navpanes=0&scrollbar=0"
+          type="application/pdf"
           className="w-full h-[80vh]"
           title="Resume Preview"
-        />
+        >
+          <p>Unable to display PDF. <a href="/my-website-portfolio/Resume_De_Matta.pdf" target="_blank" rel="noopener noreferrer">Download instead</a></p>
+        </object>
       </Modal>
        <a href="#about" className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
           <ChevronsDown size={24} className="text-primary/50" />
