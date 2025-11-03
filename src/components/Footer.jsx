@@ -18,7 +18,7 @@ const Footer = () => {
             <Linkedin size={20} />
             <span>LinkedIn</span>
           </a>
-          <a href="/Resume_De_Matta.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-semibold text-primary-foreground hover:text-secondary transition-colors">
+          <a href="/my-website-portfolio/Resume_De_Matta.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-semibold text-primary-foreground hover:text-secondary transition-colors">
             <FileText size={20} />
             <span>Download Resume</span>
           </a>

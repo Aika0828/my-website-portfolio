@@ -65,7 +65,7 @@ const Header = () => {
       
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <iframe
-          src="/Resume_De_Matta.pdf"
+          src="/my-website-portfolio/Resume_De_Matta.pdf"
           className="w-full h-[80vh]"
           title="Resume Preview"
         />
