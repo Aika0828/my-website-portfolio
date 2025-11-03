@@ -7,6 +7,7 @@ import Projects from '@/components/Projects';
 import Certifications from '@/components/Certifications';
 import Footer from '@/components/Footer';
 
+// Portfolio App Component
 function App() {
   return (
     <>
