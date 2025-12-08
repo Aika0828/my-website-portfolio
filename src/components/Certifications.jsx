@@ -12,6 +12,12 @@ const certifications = [
   },
   { 
     icon: ShieldCheck, 
+    title: "AWS Certified Solutions Architect Associate", 
+    hasImage: true,
+    imageUrl: "/my-website-portfolio/AWS Certified Solutions Architect - Associate_20251205.jpg"
+  },
+  { 
+    icon: ShieldCheck, 
     title: "ISC2 Certified in Cybersecurity (CC)", 
     hasImage: false
   },
