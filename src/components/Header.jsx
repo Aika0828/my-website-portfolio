@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex justify-center mb-8">
             <div className="w-40 h-40 rounded-full bg-gradient-to-br from-primary to-secondary p-1.5 shadow-lg">
                 <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                    <img class="rounded-full w-36 h-36 object-cover" alt="Profile photo of Angelica Joyce L. De Matta" src="https://horizons-cdn.hostinger.com/fb20ab8f-4937-4796-a459-8f0b7538fbdd/9d16faf0a47237eee44bca9e1f9b3221.jpg" />
+                    <img class="rounded-full w-36 h-36 object-cover" alt="Profile photo of Angelica Joyce L. De Matta" src="/my-website-portfolio/Angelica_DeMatta.jpg" />
                 </div>
             </div>
         </div>
